@@ -1,0 +1,32 @@
+class ace:
+    col:"ACE COLLEGE"
+    def set_dim(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1 NAME:",self.name)
+        print("2 MARK:",self.tot)
+        print("3 COLLEGE",ace.col)
+class bvrit:
+    col:"BVRIT"
+    def set_dim(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1 NAME:",self.name)
+        print("2 MARK:",self.tot)
+        print("3 COLLEGE",bvrit.col)
+         
+
+a=ace()
+a2=ace()
+a.set_dim(79,80,82,"Vijay")
+a2.set_dim(77,90,80,"Trisha")
+b=bvrit()
+b2=bvrit()
+b.set_dim(80,90,100,"Stalin")
+b2.set_dim(50,40,30,"Uday")
+a.display()
+a2.display()
+b.show()
+b2.show()
